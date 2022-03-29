@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Database1Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="admin">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="customer">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="address" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="orders" Relationship="Self.FK__order__customer___72C60C4A" FromRole="customer" ToRole="order" />
+    <NavigationProperty Name="sales" Relationship="Self.FK__sale__customer_i__30F848ED" FromRole="customer" ToRole="sale" />
+  </EntityType>
+  <EntityType Name="employee">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="store_id" Type="Int32" Nullable="false" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="address" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="store" Relationship="Self.FK__employee__store___37A5467C" FromRole="employee" ToRole="store" />
+  </EntityType>
+  <EntityType Name="hourly">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="plan_id" Type="Int32" Nullable="false" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="duration" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="price" Type="Int32" Nullable="false" />
+    <Property Name="validity" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="plan" Relationship="Self.FK__hourly__plan_id__4CA06362" FromRole="hourly" ToRole="plans" />
+    <NavigationProperty Name="orders" Relationship="Self.FK__order__hourly_ba__74AE54BC" FromRole="hourly" ToRole="order" />
+  </EntityType>
+  <EntityType Name="order">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="code" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="customer_id" Type="Int32" Nullable="false" />
+    <Property Name="plans_id" Type="Int32" Nullable="false" />
+    <Property Name="hourly_basis_id" Type="Int32" />
+    <Property Name="unlimited_id" Type="Int32" />
+    <Property Name="landline_plans_id" Type="Int32" />
+    <Property Name="customer_s_feedback" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="customer" Relationship="Self.FK__order__customer___72C60C4A" FromRole="order" ToRole="customer" />
+    <NavigationProperty Name="hourly" Relationship="Self.FK__order__hourly_ba__74AE54BC" FromRole="order" ToRole="hourly" />
+    <NavigationProperty Name="planbb" Relationship="Self.FK__order__landline___76969D2E" FromRole="order" ToRole="planbb" />
+    <NavigationProperty Name="plan" Relationship="Self.FK__order__plans_id__73BA3083" FromRole="order" ToRole="plans" />
+    <NavigationProperty Name="unlimite" Relationship="Self.FK__order__unlimited__75A278F5" FromRole="order" ToRole="unlimite" />
+  </EntityType>
+  <EntityType Name="planb">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="plans_id" Type="Int32" Nullable="false" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="plan" Relationship="Self.FK__planb__plans_id__440B1D61" FromRole="planb" ToRole="plans" />
+    <NavigationProperty Name="planbbs" Relationship="Self.FK__planbb__landline__6FE99F9F" FromRole="planb" ToRole="planbb" />
+  </EntityType>
+  <EntityType Name="planbb">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="landline_plans_id" Type="Int32" Nullable="false" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="price" Type="Int32" Nullable="false" />
+    <Property Name="validity" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="local_plan" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="std_plan" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="messaging_for_mobiles" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="orders" Relationship="Self.FK__order__landline___76969D2E" FromRole="planbb" ToRole="order" />
+    <NavigationProperty Name="planb" Relationship="Self.FK__planbb__landline__6FE99F9F" FromRole="planbb" ToRole="planb" />
+  </EntityType>
+  <EntityType Name="plan">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="security_deposit" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="hourlies" Relationship="Self.FK__hourly__plan_id__4CA06362" FromRole="plans" ToRole="hourly" />
+    <NavigationProperty Name="orders" Relationship="Self.FK__order__plans_id__73BA3083" FromRole="plans" ToRole="order" />
+    <NavigationProperty Name="planbs" Relationship="Self.FK__planb__plans_id__440B1D61" FromRole="plans" ToRole="planb" />
+    <NavigationProperty Name="unlimites" Relationship="Self.FK__unlimite__plan_i__5CD6CB2B" FromRole="plans" ToRole="unlimite" />
+  </EntityType>
+  <EntityType Name="product">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="vendor_id" Type="Int32" Nullable="false" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="price" Type="Int32" Nullable="false" />
+    <Property Name="quantity" Type="Int32" Nullable="false" />
+    <Property Name="total" Type="Int32" />
+    <NavigationProperty Name="vendor" Relationship="Self.FK__product__vendor___34C8D9D1" FromRole="product" ToRole="vendor" />
+  </EntityType>
+  <EntityType Name="sale">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="customer_id" Type="Int32" Nullable="false" />
+    <Property Name="product_id" Type="Int32" Nullable="false" />
+    <Property Name="price" Type="Int32" Nullable="false" />
+    <Property Name="quantity" Type="Int32" Nullable="false" />
+    <Property Name="total" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="customer" Relationship="Self.FK__sale__customer_i__30F848ED" FromRole="sale" ToRole="customer" />
+  </EntityType>
+  <EntityType Name="store">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="contact_number" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="address" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="city" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="employees" Relationship="Self.FK__employee__store___37A5467C" FromRole="store" ToRole="employee" />
+  </EntityType>
+  <EntityType Name="unlimite">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="plan_id" Type="Int32" Nullable="false" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="speed" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="price" Type="Int32" Nullable="false" />
+    <Property Name="validity" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="orders" Relationship="Self.FK__order__unlimited__75A278F5" FromRole="unlimite" ToRole="order" />
+    <NavigationProperty Name="plan" Relationship="Self.FK__unlimite__plan_i__5CD6CB2B" FromRole="unlimite" ToRole="plans" />
+  </EntityType>
+  <EntityType Name="vendor">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="address" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="products" Relationship="Self.FK__product__vendor___34C8D9D1" FromRole="vendor" ToRole="product" />
+  </EntityType>
+  <Association Name="FK__order__customer___72C60C4A">
+    <End Role="customer" Type="Self.customer" Multiplicity="1" />
+    <End Role="order" Type="Self.order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="customer">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="order">
+        <PropertyRef Name="customer_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__sale__customer_i__30F848ED">
+    <End Role="customer" Type="Self.customer" Multiplicity="1" />
+    <End Role="sale" Type="Self.sale" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="customer">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="sale">
+        <PropertyRef Name="customer_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__employee__store___37A5467C">
+    <End Role="store" Type="Self.store" Multiplicity="1" />
+    <End Role="employee" Type="Self.employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="store">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="employee">
+        <PropertyRef Name="store_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__hourly__plan_id__4CA06362">
+    <End Role="plans" Type="Self.plan" Multiplicity="1" />
+    <End Role="hourly" Type="Self.hourly" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="plans">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="hourly">
+        <PropertyRef Name="plan_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__order__hourly_ba__74AE54BC">
+    <End Role="hourly" Type="Self.hourly" Multiplicity="0..1" />
+    <End Role="order" Type="Self.order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="hourly">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="order">
+        <PropertyRef Name="hourly_basis_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__order__landline___76969D2E">
+    <End Role="planbb" Type="Self.planbb" Multiplicity="0..1" />
+    <End Role="order" Type="Self.order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="planbb">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="order">
+        <PropertyRef Name="landline_plans_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__order__plans_id__73BA3083">
+    <End Role="plans" Type="Self.plan" Multiplicity="1" />
+    <End Role="order" Type="Self.order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="plans">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="order">
+        <PropertyRef Name="plans_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__order__unlimited__75A278F5">
+    <End Role="unlimite" Type="Self.unlimite" Multiplicity="0..1" />
+    <End Role="order" Type="Self.order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="unlimite">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="order">
+        <PropertyRef Name="unlimited_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__planb__plans_id__440B1D61">
+    <End Role="plans" Type="Self.plan" Multiplicity="1" />
+    <End Role="planb" Type="Self.planb" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="plans">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="planb">
+        <PropertyRef Name="plans_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__planbb__landline__6FE99F9F">
+    <End Role="planb" Type="Self.planb" Multiplicity="1" />
+    <End Role="planbb" Type="Self.planbb" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="planb">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="planbb">
+        <PropertyRef Name="landline_plans_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__unlimite__plan_i__5CD6CB2B">
+    <End Role="plans" Type="Self.plan" Multiplicity="1" />
+    <End Role="unlimite" Type="Self.unlimite" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="plans">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="unlimite">
+        <PropertyRef Name="plan_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__product__vendor___34C8D9D1">
+    <End Role="vendor" Type="Self.vendor" Multiplicity="1" />
+    <End Role="product" Type="Self.product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="vendor">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="product">
+        <PropertyRef Name="vendor_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="NexusEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="admins" EntityType="Self.admin" />
+    <EntitySet Name="customers" EntityType="Self.customer" />
+    <EntitySet Name="employees" EntityType="Self.employee" />
+    <EntitySet Name="hourlies" EntityType="Self.hourly" />
+    <EntitySet Name="orders" EntityType="Self.order" />
+    <EntitySet Name="planbs" EntityType="Self.planb" />
+    <EntitySet Name="planbbs" EntityType="Self.planbb" />
+    <EntitySet Name="plans" EntityType="Self.plan" />
+    <EntitySet Name="products" EntityType="Self.product" />
+    <EntitySet Name="sales" EntityType="Self.sale" />
+    <EntitySet Name="stores" EntityType="Self.store" />
+    <EntitySet Name="unlimites" EntityType="Self.unlimite" />
+    <EntitySet Name="vendors" EntityType="Self.vendor" />
+    <AssociationSet Name="FK__order__customer___72C60C4A" Association="Self.FK__order__customer___72C60C4A">
+      <End Role="customer" EntitySet="customers" />
+      <End Role="order" EntitySet="orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK__sale__customer_i__30F848ED" Association="Self.FK__sale__customer_i__30F848ED">
+      <End Role="customer" EntitySet="customers" />
+      <End Role="sale" EntitySet="sales" />
+    </AssociationSet>
+    <AssociationSet Name="FK__employee__store___37A5467C" Association="Self.FK__employee__store___37A5467C">
+      <End Role="store" EntitySet="stores" />
+      <End Role="employee" EntitySet="employees" />
+    </AssociationSet>
+    <AssociationSet Name="FK__hourly__plan_id__4CA06362" Association="Self.FK__hourly__plan_id__4CA06362">
+      <End Role="plans" EntitySet="plans" />
+      <End Role="hourly" EntitySet="hourlies" />
+    </AssociationSet>
+    <AssociationSet Name="FK__order__hourly_ba__74AE54BC" Association="Self.FK__order__hourly_ba__74AE54BC">
+      <End Role="hourly" EntitySet="hourlies" />
+      <End Role="order" EntitySet="orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK__order__landline___76969D2E" Association="Self.FK__order__landline___76969D2E">
+      <End Role="planbb" EntitySet="planbbs" />
+      <End Role="order" EntitySet="orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK__order__plans_id__73BA3083" Association="Self.FK__order__plans_id__73BA3083">
+      <End Role="plans" EntitySet="plans" />
+      <End Role="order" EntitySet="orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK__order__unlimited__75A278F5" Association="Self.FK__order__unlimited__75A278F5">
+      <End Role="unlimite" EntitySet="unlimites" />
+      <End Role="order" EntitySet="orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK__planb__plans_id__440B1D61" Association="Self.FK__planb__plans_id__440B1D61">
+      <End Role="plans" EntitySet="plans" />
+      <End Role="planb" EntitySet="planbs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__planbb__landline__6FE99F9F" Association="Self.FK__planbb__landline__6FE99F9F">
+      <End Role="planb" EntitySet="planbs" />
+      <End Role="planbb" EntitySet="planbbs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__unlimite__plan_i__5CD6CB2B" Association="Self.FK__unlimite__plan_i__5CD6CB2B">
+      <End Role="plans" EntitySet="plans" />
+      <End Role="unlimite" EntitySet="unlimites" />
+    </AssociationSet>
+    <AssociationSet Name="FK__product__vendor___34C8D9D1" Association="Self.FK__product__vendor___34C8D9D1">
+      <End Role="vendor" EntitySet="vendors" />
+      <End Role="product" EntitySet="products" />
+    </AssociationSet>
+    <EntitySet Name="Contacts" EntityType="Database1Model.Contact" />
+  </EntityContainer>
+  <EntityType Name="Contact">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Subject" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Number" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Message" Type="String" Nullable="false" MaxLength="350" FixedLength="false" Unicode="false" />
+  </EntityType>
+</Schema>

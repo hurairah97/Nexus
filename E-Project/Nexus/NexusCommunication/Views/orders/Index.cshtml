@@ -1,0 +1,76 @@
+﻿@model IEnumerable<NexusCommunication.Models.order>
+
+@{
+    ViewBag.Title = "Index";
+   
+        Layout = "~/Views/Shared/_Admin Layout.cshtml";
+   
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.code)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.customer_s_feedback)
+        </th>
+        <th>
+            Customer Name
+        </th>
+        <th>
+            Plan Name
+        </th>
+        <th>
+            Hourely
+        </th>
+        <th>
+            Unlimited
+        </th>
+        <th>
+            LandLine Plan
+        </th>
+
+
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.code)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.customer_s_feedback)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.customer.name)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.plan.name)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.hourly.name)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.unlimite.name)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.planbb.name)
+    </td>
+
+
+    <td>
+        @Html.ActionLink("Edit", "Edit", new { id = item.id }) |
+        @Html.ActionLink("Details", "Details", new { id = item.id }) |
+        @Html.ActionLink("Delete", "Delete", new { id = item.id })
+    </td>
+</tr>
+}
+
+</table>

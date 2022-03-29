@@ -1,0 +1,496 @@
+C:\Users\asp\source\repos\NexusCommunication\NexusCommunication\bin\NexusCommunication.dll.config
+C:\Users\asp\source\repos\NexusCommunication\NexusCommunication\bin\NexusCommunication.dll
+C:\Users\asp\source\repos\NexusCommunication\NexusCommunication\bin\NexusCommunication.pdb
+C:\Users\asp\source\repos\NexusCommunication\NexusCommunication\bin\EntityFramework.dll
+C:\Users\asp\source\repos\NexusCommunication\NexusCommunication\bin\EntityFramework.SqlServer.dll
+C:\Users\asp\source\repos\NexusCommunication\NexusCommunication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\asp\source\repos\NexusCommunication\NexusCommunication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\asp\source\repos\NexusCommunication\NexusCommunication\bin\System.Web.Helpers.dll
+C:\Users\asp\source\repos\NexusCommunication\NexusCommunication\bin\System.Web.Mvc.dll
+C:\Users\asp\source\repos\NexusCommunication\NexusCommunication\bin\System.Web.Razor.dll
+C:\Users\asp\source\repos\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Deployment.dll
+C:\Users\asp\source\repos\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.dll
+C:\Users\asp\source\repos\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Razor.dll
+C:\Users\asp\source\repos\NexusCommunication\NexusCommunication\bin\EntityFramework.xml
+C:\Users\asp\source\repos\NexusCommunication\NexusCommunication\bin\EntityFramework.SqlServer.xml
+C:\Users\asp\source\repos\NexusCommunication\NexusCommunication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\asp\source\repos\NexusCommunication\NexusCommunication\bin\System.Web.Razor.xml
+C:\Users\asp\source\repos\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.xml
+C:\Users\asp\source\repos\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Deployment.xml
+C:\Users\asp\source\repos\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Razor.xml
+C:\Users\asp\source\repos\NexusCommunication\NexusCommunication\bin\System.Web.Helpers.xml
+C:\Users\asp\source\repos\NexusCommunication\NexusCommunication\bin\System.Web.Mvc.xml
+C:\Users\asp\source\repos\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.csprojResolveAssemblyReference.cache
+C:\Users\asp\source\repos\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.csproj.CoreCompileInputs.cache
+C:\Users\asp\source\repos\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.dll
+C:\Users\asp\source\repos\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.pdb
+F:\[WEBSITE]\MVC\eproject\NexusCommunication\NexusCommunication\bin\NexusCommunication.dll.config
+F:\[WEBSITE]\MVC\eproject\NexusCommunication\NexusCommunication\bin\NexusCommunication.dll
+F:\[WEBSITE]\MVC\eproject\NexusCommunication\NexusCommunication\bin\NexusCommunication.pdb
+F:\[WEBSITE]\MVC\eproject\NexusCommunication\NexusCommunication\bin\EntityFramework.dll
+F:\[WEBSITE]\MVC\eproject\NexusCommunication\NexusCommunication\bin\EntityFramework.SqlServer.dll
+F:\[WEBSITE]\MVC\eproject\NexusCommunication\NexusCommunication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\[WEBSITE]\MVC\eproject\NexusCommunication\NexusCommunication\bin\Microsoft.Web.Infrastructure.dll
+F:\[WEBSITE]\MVC\eproject\NexusCommunication\NexusCommunication\bin\System.Web.Helpers.dll
+F:\[WEBSITE]\MVC\eproject\NexusCommunication\NexusCommunication\bin\System.Web.Mvc.dll
+F:\[WEBSITE]\MVC\eproject\NexusCommunication\NexusCommunication\bin\System.Web.Razor.dll
+F:\[WEBSITE]\MVC\eproject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Deployment.dll
+F:\[WEBSITE]\MVC\eproject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.dll
+F:\[WEBSITE]\MVC\eproject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Razor.dll
+F:\[WEBSITE]\MVC\eproject\NexusCommunication\NexusCommunication\bin\EntityFramework.xml
+F:\[WEBSITE]\MVC\eproject\NexusCommunication\NexusCommunication\bin\EntityFramework.SqlServer.xml
+F:\[WEBSITE]\MVC\eproject\NexusCommunication\NexusCommunication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\[WEBSITE]\MVC\eproject\NexusCommunication\NexusCommunication\bin\System.Web.Razor.xml
+F:\[WEBSITE]\MVC\eproject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.xml
+F:\[WEBSITE]\MVC\eproject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Deployment.xml
+F:\[WEBSITE]\MVC\eproject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Razor.xml
+F:\[WEBSITE]\MVC\eproject\NexusCommunication\NexusCommunication\bin\System.Web.Helpers.xml
+F:\[WEBSITE]\MVC\eproject\NexusCommunication\NexusCommunication\bin\System.Web.Mvc.xml
+F:\[WEBSITE]\MVC\eproject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.csproj.AssemblyReference.cache
+F:\[WEBSITE]\MVC\eproject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.csproj.CoreCompileInputs.cache
+F:\[WEBSITE]\MVC\eproject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.dll
+F:\[WEBSITE]\MVC\eproject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.pdb
+F:\[WEBSITE]\MVC\eproject\Admin\NexusCommunication\NexusCommunication\bin\NexusCommunication.dll.config
+F:\[WEBSITE]\MVC\eproject\Admin\NexusCommunication\NexusCommunication\bin\NexusCommunication.dll
+F:\[WEBSITE]\MVC\eproject\Admin\NexusCommunication\NexusCommunication\bin\NexusCommunication.pdb
+F:\[WEBSITE]\MVC\eproject\Admin\NexusCommunication\NexusCommunication\bin\EntityFramework.dll
+F:\[WEBSITE]\MVC\eproject\Admin\NexusCommunication\NexusCommunication\bin\EntityFramework.SqlServer.dll
+F:\[WEBSITE]\MVC\eproject\Admin\NexusCommunication\NexusCommunication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\[WEBSITE]\MVC\eproject\Admin\NexusCommunication\NexusCommunication\bin\Microsoft.Web.Infrastructure.dll
+F:\[WEBSITE]\MVC\eproject\Admin\NexusCommunication\NexusCommunication\bin\System.Web.Helpers.dll
+F:\[WEBSITE]\MVC\eproject\Admin\NexusCommunication\NexusCommunication\bin\System.Web.Mvc.dll
+F:\[WEBSITE]\MVC\eproject\Admin\NexusCommunication\NexusCommunication\bin\System.Web.Razor.dll
+F:\[WEBSITE]\MVC\eproject\Admin\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Deployment.dll
+F:\[WEBSITE]\MVC\eproject\Admin\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.dll
+F:\[WEBSITE]\MVC\eproject\Admin\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Razor.dll
+F:\[WEBSITE]\MVC\eproject\Admin\NexusCommunication\NexusCommunication\bin\EntityFramework.xml
+F:\[WEBSITE]\MVC\eproject\Admin\NexusCommunication\NexusCommunication\bin\EntityFramework.SqlServer.xml
+F:\[WEBSITE]\MVC\eproject\Admin\NexusCommunication\NexusCommunication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\[WEBSITE]\MVC\eproject\Admin\NexusCommunication\NexusCommunication\bin\System.Web.Razor.xml
+F:\[WEBSITE]\MVC\eproject\Admin\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.xml
+F:\[WEBSITE]\MVC\eproject\Admin\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Deployment.xml
+F:\[WEBSITE]\MVC\eproject\Admin\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Razor.xml
+F:\[WEBSITE]\MVC\eproject\Admin\NexusCommunication\NexusCommunication\bin\System.Web.Helpers.xml
+F:\[WEBSITE]\MVC\eproject\Admin\NexusCommunication\NexusCommunication\bin\System.Web.Mvc.xml
+F:\[WEBSITE]\MVC\eproject\Admin\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.csproj.AssemblyReference.cache
+F:\[WEBSITE]\MVC\eproject\Admin\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.csproj.CoreCompileInputs.cache
+F:\[WEBSITE]\MVC\eproject\Admin\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.dll
+F:\[WEBSITE]\MVC\eproject\Admin\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.pdb
+C:\Users\asp\Desktop\NexusProject\NexusCommunication\NexusCommunication\bin\NexusCommunication.dll.config
+C:\Users\asp\Desktop\NexusProject\NexusCommunication\NexusCommunication\bin\NexusCommunication.dll
+C:\Users\asp\Desktop\NexusProject\NexusCommunication\NexusCommunication\bin\NexusCommunication.pdb
+C:\Users\asp\Desktop\NexusProject\NexusCommunication\NexusCommunication\bin\EntityFramework.dll
+C:\Users\asp\Desktop\NexusProject\NexusCommunication\NexusCommunication\bin\EntityFramework.SqlServer.dll
+C:\Users\asp\Desktop\NexusProject\NexusCommunication\NexusCommunication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\asp\Desktop\NexusProject\NexusCommunication\NexusCommunication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\asp\Desktop\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Helpers.dll
+C:\Users\asp\Desktop\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Mvc.dll
+C:\Users\asp\Desktop\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Razor.dll
+C:\Users\asp\Desktop\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Deployment.dll
+C:\Users\asp\Desktop\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.dll
+C:\Users\asp\Desktop\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Razor.dll
+C:\Users\asp\Desktop\NexusProject\NexusCommunication\NexusCommunication\bin\EntityFramework.xml
+C:\Users\asp\Desktop\NexusProject\NexusCommunication\NexusCommunication\bin\EntityFramework.SqlServer.xml
+C:\Users\asp\Desktop\NexusProject\NexusCommunication\NexusCommunication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\asp\Desktop\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Razor.xml
+C:\Users\asp\Desktop\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.xml
+C:\Users\asp\Desktop\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Deployment.xml
+C:\Users\asp\Desktop\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Razor.xml
+C:\Users\asp\Desktop\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Helpers.xml
+C:\Users\asp\Desktop\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Mvc.xml
+C:\Users\asp\Desktop\NexusProject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.csprojResolveAssemblyReference.cache
+C:\Users\asp\Desktop\NexusProject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.csproj.CoreCompileInputs.cache
+C:\Users\asp\Desktop\NexusProject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.dll
+C:\Users\asp\Desktop\NexusProject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.pdb
+F:\[WEBSITE]\NexusProject\NexusCommunication\NexusCommunication\bin\NexusCommunication.dll.config
+F:\[WEBSITE]\NexusProject\NexusCommunication\NexusCommunication\bin\NexusCommunication.dll
+F:\[WEBSITE]\NexusProject\NexusCommunication\NexusCommunication\bin\NexusCommunication.pdb
+F:\[WEBSITE]\NexusProject\NexusCommunication\NexusCommunication\bin\EntityFramework.dll
+F:\[WEBSITE]\NexusProject\NexusCommunication\NexusCommunication\bin\EntityFramework.SqlServer.dll
+F:\[WEBSITE]\NexusProject\NexusCommunication\NexusCommunication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\[WEBSITE]\NexusProject\NexusCommunication\NexusCommunication\bin\Microsoft.Web.Infrastructure.dll
+F:\[WEBSITE]\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Helpers.dll
+F:\[WEBSITE]\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Mvc.dll
+F:\[WEBSITE]\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Razor.dll
+F:\[WEBSITE]\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Deployment.dll
+F:\[WEBSITE]\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.dll
+F:\[WEBSITE]\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Razor.dll
+F:\[WEBSITE]\NexusProject\NexusCommunication\NexusCommunication\bin\EntityFramework.xml
+F:\[WEBSITE]\NexusProject\NexusCommunication\NexusCommunication\bin\EntityFramework.SqlServer.xml
+F:\[WEBSITE]\NexusProject\NexusCommunication\NexusCommunication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\[WEBSITE]\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Razor.xml
+F:\[WEBSITE]\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.xml
+F:\[WEBSITE]\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Deployment.xml
+F:\[WEBSITE]\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Razor.xml
+F:\[WEBSITE]\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Helpers.xml
+F:\[WEBSITE]\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Mvc.xml
+F:\[WEBSITE]\NexusProject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.csproj.AssemblyReference.cache
+F:\[WEBSITE]\NexusProject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.csproj.CoreCompileInputs.cache
+F:\[WEBSITE]\NexusProject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.dll
+F:\[WEBSITE]\NexusProject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.pdb
+C:\Users\asp\Music\NexusProject\NexusProject\NexusCommunication\NexusCommunication\bin\NexusCommunication.dll.config
+C:\Users\asp\Music\NexusProject\NexusProject\NexusCommunication\NexusCommunication\bin\NexusCommunication.dll
+C:\Users\asp\Music\NexusProject\NexusProject\NexusCommunication\NexusCommunication\bin\NexusCommunication.pdb
+C:\Users\asp\Music\NexusProject\NexusProject\NexusCommunication\NexusCommunication\bin\EntityFramework.dll
+C:\Users\asp\Music\NexusProject\NexusProject\NexusCommunication\NexusCommunication\bin\EntityFramework.SqlServer.dll
+C:\Users\asp\Music\NexusProject\NexusProject\NexusCommunication\NexusCommunication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\asp\Music\NexusProject\NexusProject\NexusCommunication\NexusCommunication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\asp\Music\NexusProject\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Helpers.dll
+C:\Users\asp\Music\NexusProject\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Mvc.dll
+C:\Users\asp\Music\NexusProject\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Razor.dll
+C:\Users\asp\Music\NexusProject\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Deployment.dll
+C:\Users\asp\Music\NexusProject\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.dll
+C:\Users\asp\Music\NexusProject\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Razor.dll
+C:\Users\asp\Music\NexusProject\NexusProject\NexusCommunication\NexusCommunication\bin\EntityFramework.xml
+C:\Users\asp\Music\NexusProject\NexusProject\NexusCommunication\NexusCommunication\bin\EntityFramework.SqlServer.xml
+C:\Users\asp\Music\NexusProject\NexusProject\NexusCommunication\NexusCommunication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\asp\Music\NexusProject\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Razor.xml
+C:\Users\asp\Music\NexusProject\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.xml
+C:\Users\asp\Music\NexusProject\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Deployment.xml
+C:\Users\asp\Music\NexusProject\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Razor.xml
+C:\Users\asp\Music\NexusProject\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Helpers.xml
+C:\Users\asp\Music\NexusProject\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Mvc.xml
+C:\Users\asp\Music\NexusProject\NexusProject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.csprojResolveAssemblyReference.cache
+C:\Users\asp\Music\NexusProject\NexusProject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.csproj.CoreCompileInputs.cache
+C:\Users\asp\Music\NexusProject\NexusProject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.dll
+C:\Users\asp\Music\NexusProject\NexusProject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.pdb
+C:\Users\asp\Pictures\NexusProject\NexusProject\NexusCommunication\NexusCommunication\bin\NexusCommunication.dll.config
+C:\Users\asp\Pictures\NexusProject\NexusProject\NexusCommunication\NexusCommunication\bin\NexusCommunication.dll
+C:\Users\asp\Pictures\NexusProject\NexusProject\NexusCommunication\NexusCommunication\bin\NexusCommunication.pdb
+C:\Users\asp\Pictures\NexusProject\NexusProject\NexusCommunication\NexusCommunication\bin\EntityFramework.dll
+C:\Users\asp\Pictures\NexusProject\NexusProject\NexusCommunication\NexusCommunication\bin\EntityFramework.SqlServer.dll
+C:\Users\asp\Pictures\NexusProject\NexusProject\NexusCommunication\NexusCommunication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\asp\Pictures\NexusProject\NexusProject\NexusCommunication\NexusCommunication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\asp\Pictures\NexusProject\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Helpers.dll
+C:\Users\asp\Pictures\NexusProject\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Mvc.dll
+C:\Users\asp\Pictures\NexusProject\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Razor.dll
+C:\Users\asp\Pictures\NexusProject\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Deployment.dll
+C:\Users\asp\Pictures\NexusProject\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.dll
+C:\Users\asp\Pictures\NexusProject\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Razor.dll
+C:\Users\asp\Pictures\NexusProject\NexusProject\NexusCommunication\NexusCommunication\bin\EntityFramework.xml
+C:\Users\asp\Pictures\NexusProject\NexusProject\NexusCommunication\NexusCommunication\bin\EntityFramework.SqlServer.xml
+C:\Users\asp\Pictures\NexusProject\NexusProject\NexusCommunication\NexusCommunication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\asp\Pictures\NexusProject\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Razor.xml
+C:\Users\asp\Pictures\NexusProject\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.xml
+C:\Users\asp\Pictures\NexusProject\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Deployment.xml
+C:\Users\asp\Pictures\NexusProject\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Razor.xml
+C:\Users\asp\Pictures\NexusProject\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Helpers.xml
+C:\Users\asp\Pictures\NexusProject\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Mvc.xml
+C:\Users\asp\Pictures\NexusProject\NexusProject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.csprojResolveAssemblyReference.cache
+C:\Users\asp\Pictures\NexusProject\NexusProject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.csproj.CoreCompileInputs.cache
+C:\Users\asp\Pictures\NexusProject\NexusProject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.dll
+C:\Users\asp\Pictures\NexusProject\NexusProject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.pdb
+F:\[WEBSITE]\project\NexusProject\NexusCommunication\NexusCommunication\bin\NexusCommunication.dll.config
+F:\[WEBSITE]\project\NexusProject\NexusCommunication\NexusCommunication\bin\NexusCommunication.dll
+F:\[WEBSITE]\project\NexusProject\NexusCommunication\NexusCommunication\bin\NexusCommunication.pdb
+F:\[WEBSITE]\project\NexusProject\NexusCommunication\NexusCommunication\bin\EntityFramework.dll
+F:\[WEBSITE]\project\NexusProject\NexusCommunication\NexusCommunication\bin\EntityFramework.SqlServer.dll
+F:\[WEBSITE]\project\NexusProject\NexusCommunication\NexusCommunication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\[WEBSITE]\project\NexusProject\NexusCommunication\NexusCommunication\bin\Microsoft.Web.Infrastructure.dll
+F:\[WEBSITE]\project\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Helpers.dll
+F:\[WEBSITE]\project\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Mvc.dll
+F:\[WEBSITE]\project\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Razor.dll
+F:\[WEBSITE]\project\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Deployment.dll
+F:\[WEBSITE]\project\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.dll
+F:\[WEBSITE]\project\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Razor.dll
+F:\[WEBSITE]\project\NexusProject\NexusCommunication\NexusCommunication\bin\EntityFramework.xml
+F:\[WEBSITE]\project\NexusProject\NexusCommunication\NexusCommunication\bin\EntityFramework.SqlServer.xml
+F:\[WEBSITE]\project\NexusProject\NexusCommunication\NexusCommunication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\[WEBSITE]\project\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Razor.xml
+F:\[WEBSITE]\project\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.xml
+F:\[WEBSITE]\project\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Deployment.xml
+F:\[WEBSITE]\project\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Razor.xml
+F:\[WEBSITE]\project\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Helpers.xml
+F:\[WEBSITE]\project\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Mvc.xml
+F:\[WEBSITE]\project\NexusProject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.csproj.AssemblyReference.cache
+F:\[WEBSITE]\project\NexusProject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.csproj.CoreCompileInputs.cache
+F:\[WEBSITE]\project\NexusProject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.dll
+F:\[WEBSITE]\project\NexusProject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.pdb
+C:\Users\asp\Pictures\NexusProject\NexusCommunication\NexusCommunication\bin\NexusCommunication.dll.config
+C:\Users\asp\Pictures\NexusProject\NexusCommunication\NexusCommunication\bin\NexusCommunication.dll
+C:\Users\asp\Pictures\NexusProject\NexusCommunication\NexusCommunication\bin\NexusCommunication.pdb
+C:\Users\asp\Pictures\NexusProject\NexusCommunication\NexusCommunication\bin\EntityFramework.dll
+C:\Users\asp\Pictures\NexusProject\NexusCommunication\NexusCommunication\bin\EntityFramework.SqlServer.dll
+C:\Users\asp\Pictures\NexusProject\NexusCommunication\NexusCommunication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\asp\Pictures\NexusProject\NexusCommunication\NexusCommunication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\asp\Pictures\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Helpers.dll
+C:\Users\asp\Pictures\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Mvc.dll
+C:\Users\asp\Pictures\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Razor.dll
+C:\Users\asp\Pictures\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Deployment.dll
+C:\Users\asp\Pictures\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.dll
+C:\Users\asp\Pictures\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Razor.dll
+C:\Users\asp\Pictures\NexusProject\NexusCommunication\NexusCommunication\bin\EntityFramework.xml
+C:\Users\asp\Pictures\NexusProject\NexusCommunication\NexusCommunication\bin\EntityFramework.SqlServer.xml
+C:\Users\asp\Pictures\NexusProject\NexusCommunication\NexusCommunication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\asp\Pictures\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Razor.xml
+C:\Users\asp\Pictures\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.xml
+C:\Users\asp\Pictures\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Deployment.xml
+C:\Users\asp\Pictures\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Razor.xml
+C:\Users\asp\Pictures\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Helpers.xml
+C:\Users\asp\Pictures\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Mvc.xml
+C:\Users\asp\Pictures\NexusProject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.csprojResolveAssemblyReference.cache
+C:\Users\asp\Pictures\NexusProject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.csproj.CoreCompileInputs.cache
+C:\Users\asp\Pictures\NexusProject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.dll
+C:\Users\asp\Pictures\NexusProject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.pdb
+C:\Users\User\OneDrive\Desktop\email wala\NexusProject\NexusCommunication\NexusCommunication\bin\NexusCommunication.dll.config
+C:\Users\User\OneDrive\Desktop\email wala\NexusProject\NexusCommunication\NexusCommunication\bin\NexusCommunication.dll
+C:\Users\User\OneDrive\Desktop\email wala\NexusProject\NexusCommunication\NexusCommunication\bin\NexusCommunication.pdb
+C:\Users\User\OneDrive\Desktop\email wala\NexusProject\NexusCommunication\NexusCommunication\bin\EntityFramework.dll
+C:\Users\User\OneDrive\Desktop\email wala\NexusProject\NexusCommunication\NexusCommunication\bin\EntityFramework.SqlServer.dll
+C:\Users\User\OneDrive\Desktop\email wala\NexusProject\NexusCommunication\NexusCommunication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\OneDrive\Desktop\email wala\NexusProject\NexusCommunication\NexusCommunication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\OneDrive\Desktop\email wala\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Helpers.dll
+C:\Users\User\OneDrive\Desktop\email wala\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Mvc.dll
+C:\Users\User\OneDrive\Desktop\email wala\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Razor.dll
+C:\Users\User\OneDrive\Desktop\email wala\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Deployment.dll
+C:\Users\User\OneDrive\Desktop\email wala\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.dll
+C:\Users\User\OneDrive\Desktop\email wala\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Razor.dll
+C:\Users\User\OneDrive\Desktop\email wala\NexusProject\NexusCommunication\NexusCommunication\bin\EntityFramework.xml
+C:\Users\User\OneDrive\Desktop\email wala\NexusProject\NexusCommunication\NexusCommunication\bin\EntityFramework.SqlServer.xml
+C:\Users\User\OneDrive\Desktop\email wala\NexusProject\NexusCommunication\NexusCommunication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\OneDrive\Desktop\email wala\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Razor.xml
+C:\Users\User\OneDrive\Desktop\email wala\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.xml
+C:\Users\User\OneDrive\Desktop\email wala\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Deployment.xml
+C:\Users\User\OneDrive\Desktop\email wala\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Razor.xml
+C:\Users\User\OneDrive\Desktop\email wala\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Helpers.xml
+C:\Users\User\OneDrive\Desktop\email wala\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Mvc.xml
+C:\Users\User\OneDrive\Desktop\email wala\NexusProject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Desktop\email wala\NexusProject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Desktop\email wala\NexusProject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.csproj.CopyComplete
+C:\Users\User\OneDrive\Desktop\email wala\NexusProject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.dll
+C:\Users\User\OneDrive\Desktop\email wala\NexusProject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.pdb
+C:\Users\asp\Music\NexusProject\NexusCommunication\NexusCommunication\bin\NexusCommunication.dll.config
+C:\Users\asp\Music\NexusProject\NexusCommunication\NexusCommunication\bin\NexusCommunication.dll
+C:\Users\asp\Music\NexusProject\NexusCommunication\NexusCommunication\bin\NexusCommunication.pdb
+C:\Users\asp\Music\NexusProject\NexusCommunication\NexusCommunication\bin\EntityFramework.dll
+C:\Users\asp\Music\NexusProject\NexusCommunication\NexusCommunication\bin\EntityFramework.SqlServer.dll
+C:\Users\asp\Music\NexusProject\NexusCommunication\NexusCommunication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\asp\Music\NexusProject\NexusCommunication\NexusCommunication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\asp\Music\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Helpers.dll
+C:\Users\asp\Music\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Mvc.dll
+C:\Users\asp\Music\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Razor.dll
+C:\Users\asp\Music\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Deployment.dll
+C:\Users\asp\Music\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.dll
+C:\Users\asp\Music\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Razor.dll
+C:\Users\asp\Music\NexusProject\NexusCommunication\NexusCommunication\bin\EntityFramework.xml
+C:\Users\asp\Music\NexusProject\NexusCommunication\NexusCommunication\bin\EntityFramework.SqlServer.xml
+C:\Users\asp\Music\NexusProject\NexusCommunication\NexusCommunication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\asp\Music\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Razor.xml
+C:\Users\asp\Music\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.xml
+C:\Users\asp\Music\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Deployment.xml
+C:\Users\asp\Music\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Razor.xml
+C:\Users\asp\Music\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Helpers.xml
+C:\Users\asp\Music\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Mvc.xml
+C:\Users\asp\Music\NexusProject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.csprojResolveAssemblyReference.cache
+C:\Users\asp\Music\NexusProject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.csproj.CoreCompileInputs.cache
+C:\Users\asp\Music\NexusProject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.dll
+C:\Users\asp\Music\NexusProject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.pdb
+C:\Users\User\OneDrive\Desktop\final\NexusProject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Desktop\final\NexusProject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Desktop\final\NexusProject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.dll
+C:\Users\User\OneDrive\Desktop\final\NexusProject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.pdb
+C:\Users\User\OneDrive\Desktop\final\NexusProject\NexusCommunication\NexusCommunication\bin\NexusCommunication.dll.config
+C:\Users\User\OneDrive\Desktop\final\NexusProject\NexusCommunication\NexusCommunication\bin\NexusCommunication.dll
+C:\Users\User\OneDrive\Desktop\final\NexusProject\NexusCommunication\NexusCommunication\bin\NexusCommunication.pdb
+C:\Users\User\OneDrive\Desktop\final\NexusProject\NexusCommunication\NexusCommunication\bin\EntityFramework.dll
+C:\Users\User\OneDrive\Desktop\final\NexusProject\NexusCommunication\NexusCommunication\bin\EntityFramework.SqlServer.dll
+C:\Users\User\OneDrive\Desktop\final\NexusProject\NexusCommunication\NexusCommunication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\OneDrive\Desktop\final\NexusProject\NexusCommunication\NexusCommunication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\OneDrive\Desktop\final\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Helpers.dll
+C:\Users\User\OneDrive\Desktop\final\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Mvc.dll
+C:\Users\User\OneDrive\Desktop\final\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Razor.dll
+C:\Users\User\OneDrive\Desktop\final\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Deployment.dll
+C:\Users\User\OneDrive\Desktop\final\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.dll
+C:\Users\User\OneDrive\Desktop\final\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Razor.dll
+C:\Users\User\OneDrive\Desktop\final\NexusProject\NexusCommunication\NexusCommunication\bin\EntityFramework.xml
+C:\Users\User\OneDrive\Desktop\final\NexusProject\NexusCommunication\NexusCommunication\bin\EntityFramework.SqlServer.xml
+C:\Users\User\OneDrive\Desktop\final\NexusProject\NexusCommunication\NexusCommunication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\OneDrive\Desktop\final\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Razor.xml
+C:\Users\User\OneDrive\Desktop\final\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.xml
+C:\Users\User\OneDrive\Desktop\final\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Deployment.xml
+C:\Users\User\OneDrive\Desktop\final\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Razor.xml
+C:\Users\User\OneDrive\Desktop\final\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Helpers.xml
+C:\Users\User\OneDrive\Desktop\final\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Mvc.xml
+C:\Users\User\OneDrive\Desktop\final\NexusProject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.csproj.CopyComplete
+E:\NexusProject\NexusCommunication\NexusCommunication\bin\NexusCommunication.dll.config
+E:\NexusProject\NexusCommunication\NexusCommunication\bin\NexusCommunication.dll
+E:\NexusProject\NexusCommunication\NexusCommunication\bin\NexusCommunication.pdb
+E:\NexusProject\NexusCommunication\NexusCommunication\bin\EntityFramework.dll
+E:\NexusProject\NexusCommunication\NexusCommunication\bin\EntityFramework.SqlServer.dll
+E:\NexusProject\NexusCommunication\NexusCommunication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\NexusProject\NexusCommunication\NexusCommunication\bin\Microsoft.Web.Infrastructure.dll
+E:\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Helpers.dll
+E:\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Mvc.dll
+E:\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Razor.dll
+E:\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Deployment.dll
+E:\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.dll
+E:\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Razor.dll
+E:\NexusProject\NexusCommunication\NexusCommunication\bin\EntityFramework.xml
+E:\NexusProject\NexusCommunication\NexusCommunication\bin\EntityFramework.SqlServer.xml
+E:\NexusProject\NexusCommunication\NexusCommunication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Razor.xml
+E:\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.xml
+E:\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Deployment.xml
+E:\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Razor.xml
+E:\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Helpers.xml
+E:\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Mvc.xml
+E:\NexusProject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.csproj.AssemblyReference.cache
+E:\NexusProject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.csproj.CoreCompileInputs.cache
+E:\NexusProject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.dll
+E:\NexusProject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.pdb
+C:\Users\asp\Downloads\NexusProject\NexusCommunication\NexusCommunication\bin\NexusCommunication.dll.config
+C:\Users\asp\Downloads\NexusProject\NexusCommunication\NexusCommunication\bin\NexusCommunication.dll
+C:\Users\asp\Downloads\NexusProject\NexusCommunication\NexusCommunication\bin\NexusCommunication.pdb
+C:\Users\asp\Downloads\NexusProject\NexusCommunication\NexusCommunication\bin\EntityFramework.dll
+C:\Users\asp\Downloads\NexusProject\NexusCommunication\NexusCommunication\bin\EntityFramework.SqlServer.dll
+C:\Users\asp\Downloads\NexusProject\NexusCommunication\NexusCommunication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\asp\Downloads\NexusProject\NexusCommunication\NexusCommunication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\asp\Downloads\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Helpers.dll
+C:\Users\asp\Downloads\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Mvc.dll
+C:\Users\asp\Downloads\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Razor.dll
+C:\Users\asp\Downloads\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Deployment.dll
+C:\Users\asp\Downloads\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.dll
+C:\Users\asp\Downloads\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Razor.dll
+C:\Users\asp\Downloads\NexusProject\NexusCommunication\NexusCommunication\bin\EntityFramework.xml
+C:\Users\asp\Downloads\NexusProject\NexusCommunication\NexusCommunication\bin\EntityFramework.SqlServer.xml
+C:\Users\asp\Downloads\NexusProject\NexusCommunication\NexusCommunication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\asp\Downloads\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Razor.xml
+C:\Users\asp\Downloads\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.xml
+C:\Users\asp\Downloads\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Deployment.xml
+C:\Users\asp\Downloads\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Razor.xml
+C:\Users\asp\Downloads\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Helpers.xml
+C:\Users\asp\Downloads\NexusProject\NexusCommunication\NexusCommunication\bin\System.Web.Mvc.xml
+C:\Users\asp\Downloads\NexusProject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.csprojResolveAssemblyReference.cache
+C:\Users\asp\Downloads\NexusProject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.csproj.CoreCompileInputs.cache
+C:\Users\asp\Downloads\NexusProject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.dll
+C:\Users\asp\Downloads\NexusProject\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.pdb
+C:\Users\asp\Desktop\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\NexusCommunication.dll.config
+C:\Users\asp\Desktop\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\NexusCommunication.dll
+C:\Users\asp\Desktop\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\NexusCommunication.pdb
+C:\Users\asp\Desktop\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\EntityFramework.dll
+C:\Users\asp\Desktop\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\EntityFramework.SqlServer.dll
+C:\Users\asp\Desktop\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\asp\Desktop\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\asp\Desktop\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Helpers.dll
+C:\Users\asp\Desktop\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Mvc.dll
+C:\Users\asp\Desktop\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Razor.dll
+C:\Users\asp\Desktop\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Deployment.dll
+C:\Users\asp\Desktop\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.dll
+C:\Users\asp\Desktop\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Razor.dll
+C:\Users\asp\Desktop\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\EntityFramework.xml
+C:\Users\asp\Desktop\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\EntityFramework.SqlServer.xml
+C:\Users\asp\Desktop\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\asp\Desktop\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Razor.xml
+C:\Users\asp\Desktop\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.xml
+C:\Users\asp\Desktop\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Deployment.xml
+C:\Users\asp\Desktop\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Razor.xml
+C:\Users\asp\Desktop\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Helpers.xml
+C:\Users\asp\Desktop\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Mvc.xml
+C:\Users\asp\Desktop\Nexus\E-Project\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.csprojResolveAssemblyReference.cache
+C:\Users\asp\Desktop\Nexus\E-Project\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.csproj.CoreCompileInputs.cache
+C:\Users\asp\Desktop\Nexus\E-Project\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.dll
+C:\Users\asp\Desktop\Nexus\E-Project\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.pdb
+E:\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\NexusCommunication.dll.config
+E:\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\NexusCommunication.dll
+E:\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\NexusCommunication.pdb
+E:\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\EntityFramework.dll
+E:\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\EntityFramework.SqlServer.dll
+E:\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\Microsoft.Web.Infrastructure.dll
+E:\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Helpers.dll
+E:\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Mvc.dll
+E:\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Razor.dll
+E:\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Deployment.dll
+E:\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.dll
+E:\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Razor.dll
+E:\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\EntityFramework.xml
+E:\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\EntityFramework.SqlServer.xml
+E:\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Razor.xml
+E:\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.xml
+E:\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Deployment.xml
+E:\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Razor.xml
+E:\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Helpers.xml
+E:\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Mvc.xml
+E:\Nexus\E-Project\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.csproj.AssemblyReference.cache
+E:\Nexus\E-Project\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.csproj.CoreCompileInputs.cache
+E:\Nexus\E-Project\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.dll
+E:\Nexus\E-Project\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.pdb
+C:\Users\asp\Music\Nexus\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\NexusCommunication.dll.config
+C:\Users\asp\Music\Nexus\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\NexusCommunication.dll
+C:\Users\asp\Music\Nexus\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\NexusCommunication.pdb
+C:\Users\asp\Music\Nexus\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\EntityFramework.dll
+C:\Users\asp\Music\Nexus\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\EntityFramework.SqlServer.dll
+C:\Users\asp\Music\Nexus\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\asp\Music\Nexus\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\asp\Music\Nexus\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Helpers.dll
+C:\Users\asp\Music\Nexus\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Mvc.dll
+C:\Users\asp\Music\Nexus\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Razor.dll
+C:\Users\asp\Music\Nexus\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Deployment.dll
+C:\Users\asp\Music\Nexus\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.dll
+C:\Users\asp\Music\Nexus\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Razor.dll
+C:\Users\asp\Music\Nexus\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\EntityFramework.xml
+C:\Users\asp\Music\Nexus\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\EntityFramework.SqlServer.xml
+C:\Users\asp\Music\Nexus\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\asp\Music\Nexus\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Razor.xml
+C:\Users\asp\Music\Nexus\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.xml
+C:\Users\asp\Music\Nexus\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Deployment.xml
+C:\Users\asp\Music\Nexus\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Razor.xml
+C:\Users\asp\Music\Nexus\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Helpers.xml
+C:\Users\asp\Music\Nexus\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Mvc.xml
+C:\Users\asp\Music\Nexus\Nexus\E-Project\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.csprojResolveAssemblyReference.cache
+C:\Users\asp\Music\Nexus\Nexus\E-Project\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.csproj.CoreCompileInputs.cache
+C:\Users\asp\Music\Nexus\Nexus\E-Project\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.dll
+C:\Users\asp\Music\Nexus\Nexus\E-Project\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.pdb
+C:\Users\Abu Huraira Khan\Pictures\NexusCommunication\NexusCommunication\bin\NexusCommunication.dll.config
+C:\Users\Abu Huraira Khan\Pictures\NexusCommunication\NexusCommunication\bin\NexusCommunication.dll
+C:\Users\Abu Huraira Khan\Pictures\NexusCommunication\NexusCommunication\bin\NexusCommunication.pdb
+C:\Users\Abu Huraira Khan\Pictures\NexusCommunication\NexusCommunication\bin\EntityFramework.dll
+C:\Users\Abu Huraira Khan\Pictures\NexusCommunication\NexusCommunication\bin\EntityFramework.SqlServer.dll
+C:\Users\Abu Huraira Khan\Pictures\NexusCommunication\NexusCommunication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Abu Huraira Khan\Pictures\NexusCommunication\NexusCommunication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Abu Huraira Khan\Pictures\NexusCommunication\NexusCommunication\bin\System.Web.Helpers.dll
+C:\Users\Abu Huraira Khan\Pictures\NexusCommunication\NexusCommunication\bin\System.Web.Mvc.dll
+C:\Users\Abu Huraira Khan\Pictures\NexusCommunication\NexusCommunication\bin\System.Web.Razor.dll
+C:\Users\Abu Huraira Khan\Pictures\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Abu Huraira Khan\Pictures\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.dll
+C:\Users\Abu Huraira Khan\Pictures\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Razor.dll
+C:\Users\Abu Huraira Khan\Pictures\NexusCommunication\NexusCommunication\bin\EntityFramework.xml
+C:\Users\Abu Huraira Khan\Pictures\NexusCommunication\NexusCommunication\bin\EntityFramework.SqlServer.xml
+C:\Users\Abu Huraira Khan\Pictures\NexusCommunication\NexusCommunication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Abu Huraira Khan\Pictures\NexusCommunication\NexusCommunication\bin\System.Web.Razor.xml
+C:\Users\Abu Huraira Khan\Pictures\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.xml
+C:\Users\Abu Huraira Khan\Pictures\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Abu Huraira Khan\Pictures\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Razor.xml
+C:\Users\Abu Huraira Khan\Pictures\NexusCommunication\NexusCommunication\bin\System.Web.Helpers.xml
+C:\Users\Abu Huraira Khan\Pictures\NexusCommunication\NexusCommunication\bin\System.Web.Mvc.xml
+C:\Users\Abu Huraira Khan\Pictures\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.csproj.AssemblyReference.cache
+C:\Users\Abu Huraira Khan\Pictures\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.csproj.CoreCompileInputs.cache
+C:\Users\Abu Huraira Khan\Pictures\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.dll
+C:\Users\Abu Huraira Khan\Pictures\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.pdb
+F:\[WEBSITE]\projects\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\NexusCommunication.dll.config
+F:\[WEBSITE]\projects\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\NexusCommunication.dll
+F:\[WEBSITE]\projects\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\NexusCommunication.pdb
+F:\[WEBSITE]\projects\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\EntityFramework.dll
+F:\[WEBSITE]\projects\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\EntityFramework.SqlServer.dll
+F:\[WEBSITE]\projects\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\[WEBSITE]\projects\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\Microsoft.Web.Infrastructure.dll
+F:\[WEBSITE]\projects\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Helpers.dll
+F:\[WEBSITE]\projects\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Mvc.dll
+F:\[WEBSITE]\projects\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Razor.dll
+F:\[WEBSITE]\projects\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Deployment.dll
+F:\[WEBSITE]\projects\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.dll
+F:\[WEBSITE]\projects\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Razor.dll
+F:\[WEBSITE]\projects\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\EntityFramework.xml
+F:\[WEBSITE]\projects\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\EntityFramework.SqlServer.xml
+F:\[WEBSITE]\projects\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\[WEBSITE]\projects\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Razor.xml
+F:\[WEBSITE]\projects\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.xml
+F:\[WEBSITE]\projects\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Deployment.xml
+F:\[WEBSITE]\projects\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Webpages.Razor.xml
+F:\[WEBSITE]\projects\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Helpers.xml
+F:\[WEBSITE]\projects\Nexus\E-Project\NexusCommunication\NexusCommunication\bin\System.Web.Mvc.xml
+F:\[WEBSITE]\projects\Nexus\E-Project\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.csproj.AssemblyReference.cache
+F:\[WEBSITE]\projects\Nexus\E-Project\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.csproj.CoreCompileInputs.cache
+F:\[WEBSITE]\projects\Nexus\E-Project\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.dll
+F:\[WEBSITE]\projects\Nexus\E-Project\NexusCommunication\NexusCommunication\obj\Debug\NexusCommunication.pdb

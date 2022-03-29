@@ -1,0 +1,88 @@
+﻿
+@{
+    ViewBag.Title = "landline";
+}
+
+
+<section class="page-banner-area page-service">
+    <div class="overlay"></div>
+    <!-- Content -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-9 col-md-12 col-12 text-center">
+                <div class="page-banner-content">
+                    <h1 class="display-4 font-weight-bold">LandLine Services Details</h1>
+                    <p>We'd love to talk about how we can help you.</p>
+                </div>
+            </div>
+        </div> <!-- / .row -->
+    </div> <!-- / .container -->
+</section>
+<section class="section" id="services-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <p class="pl-3 text-white">
+                    Want to know
+                    more about this? <a href="@Url.Action("Contact","Home")" class="text-warning">Contact us</a>
+                </p>
+            </div>
+        </div> <div class="row
+justify-content-center">
+            <div class="col-md-8 col-lg-6 text-center">
+                <div class="section-heading">
+                    <!-- Heading --> <h2 class="section-title mb-2
+text-white">
+                        Web Services
+                    </h2>
+
+                    <!-- Subheading --> <p class="mb-5 text-white">
+                      LandLine's Standard plan are available 
+                    </p>
+                </div>
+            </div>
+        </div> <!-- / .row -->
+
+        <div class="row">
+            @foreach (var item in ViewBag.a)
+            {
+                <div class="col-lg-4 col-sm-6 col-md-6 mb-30">
+                    <div class="web-service-block">
+                        <i class="far fa-calendar-alt"></i> <h3>
+                            <span>@item.name</span><br />
+                            <span>@item.price $</span><br />
+                            <span>@item.validity</span><br />
+                            <span>@item.local_plan</span><br />
+                            <span>@item.std_plan</span><br />
+                            <span>@item.messaging_for_mobiles</span><br />
+
+
+
+                        </h3>
+                        <p>
+
+
+                            <span>The @item.name is available for only on <b> <strong><span>@item.price $</span> </strong></b>with local : @item.local_plan and STD : @item.std_plan and for mobile messages : @item.messaging_for_mobiles with the validation of  @item.validity .</span>
+                        </p>
+                        @{
+                            if (Session["c_id"] != null)
+                            {
+                                @Html.ActionLink("Order Now", "landline2", "Home", new { id = item.id }, null)
+                            }
+                            else
+                            {
+                                @Html.ActionLink("Order Now", "Login", "Home", new { id = item.id }, null)
+                            }
+                        }
+
+                    </div>
+                </div>
+            }
+
+        </div>
+
+    </div>
+</section>
+
+
+

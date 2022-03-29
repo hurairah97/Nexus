@@ -1,0 +1,199 @@
+﻿@model NexusCommunication.Models.Contact
+
+
+@{
+    ViewBag.Title = "Nexus | Contact";
+}
+@Html.Raw(ViewBag.Message)
+<!-- HERO
+================================================== -->
+<section class="page-banner-area page-contact">
+    <div class="overlay"></div>
+    <!-- Content -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-9 col-md-12 col-12 text-center">
+                <div class="page-banner-content">
+                    <h1 class="display-4 font-weight-bold">Got a question?</h1>
+                    <p>We'd love to talk about how we can help you.</p>
+                </div>
+            </div>
+        </div> <!-- / .row -->
+    </div> <!-- / .container -->
+</section>
+
+
+<!-- SECTIONS
+  ================================================== -->
+<section id="contact-info">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-sm-6 col-md-6">
+                <div class="contact-info-block text-center">
+                    <i class="pe-7s-map-marker"></i>
+                    <h4>Address</h4>
+                    <p class="lead">
+                        E-8-6 (Suite 11.11) Megan Avenue 1,
+                        189 Jalan Tun Razak,
+                        50400 Kuala Lumpur, Malaysia
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-md-6">
+                <div class="contact-info-block text-center">
+                    <i class="pe-7s-mail"></i>
+                    <h4>Email</h4>
+                    <p class="lead">
+                        enquiry@Nexus.com <br />or<br>
+                        details@Nexus.com
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-md-6">
+                <div class="contact-info-block text-center">
+                    <i class="pe-7s-phone"></i>
+                    <h4>Phone Number</h4>
+                    <p class="lead">
+                        Tel: 03 - 7493 5909
+                        Fax: 03 - 2333 8899
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="contact">
+    <div class="container">
+        <div class="row mb-4">
+            <div class="col-md-8 col-lg-6">
+                <h5>Leave a Message</h5>
+                <!-- Heading -->
+                <h2 class="section-title mb-2 ">
+                    Tell us about <span class="font-weight-normal">yourself</span>
+                </h2>
+
+                <!-- Subheading -->
+                <p class="mb-5 ">
+                    Whether you have questions or you would just like to say hello, contact us.
+                </p>
+
+            </div>
+        </div> <!-- / .row -->
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+            <div class="row">
+                <div class="col-lg-6">
+                    <!-- form message -->
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="alert alert-success contact__msg" style="display: none" role="alert">
+                                Your message was sent successfully.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end message -->
+                    <!-- Contacts Form -->
+                    <form class="contact_form" action="mail.php">
+                        <div class="row">
+                            <!-- Input -->
+                            <div class="col-sm-6 mb-6">
+                                <div class="form-group">
+                                    <label class="h6 small d-block text-uppercase">
+                                        Your name
+                                        <span class="text-danger">*</span>
+                                    </label>
+
+                                    <div class="input-group">
+                                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                                        @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control", @id = "name", @placeholder = "Your Name" } })
+                                        @*<input class="form-control" name="name" id="name" required="" placeholder="John Doe" type="text">*@
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Input -->
+                            <!-- Input -->
+                            <div class="col-sm-6 mb-6">
+                                <div class="form-group">
+                                    <label class="h6 small d-block text-uppercase">
+                                        Your email address
+                                        <span class="text-danger">*</span>
+                                    </label>
+
+                                    <div class="input-group ">
+                                        @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control", @id = "email", @placeholder = "example@gmail.com" } })
+                                        @*<input class="form-control" name="email" id="email" required="" placeholder="john@gmail.com" type="email">*@
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Input -->
+
+                            <div class="w-100"></div>
+
+                            <!-- Input -->
+                            <div class="col-sm-6 mb-6">
+                                <div class="form-group">
+                                    <label class="h6 small d-block text-uppercase">
+                                        Subject
+                                        <span class="text-danger">*</span>
+                                    </label>
+
+                                    <div class="input-group">
+                                        @Html.EditorFor(model => model.Subject, new { htmlAttributes = new { @class = "form-control", @id = "subject", @placeholder = "Subject" } })
+                                        @*<input class="form-control" name="subject" id="subject" required="" placeholder="Web design" type="text">*@
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Input -->
+                            <!-- Input -->
+                            <div class="col-sm-6 mb-6">
+                                <div class="form-group">
+                                    <label class="h6 small d-block text-uppercase">
+                                        Your Phone Number
+                                        <span class="text-danger">*</span>
+                                    </label>
+
+                                    <div class="input-group ">
+                                        @Html.EditorFor(model => model.Number, new { htmlAttributes = new { @class = "form-control", @id = "phone", @placeholder = "Phone #" } })
+                                        @*<input class="form-control" id="phone" name="phone" required="" placeholder="1-800-643-4500" type="text">*@
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Input -->
+                        </div>
+
+                        <!-- Input -->
+                        <div class="form-group mb-5">
+                            <label class="h6 small d-block text-uppercase">
+                                How can we help you?
+                                <span class="text-danger">*</span>
+                            </label>
+
+                            <div class="input-group">
+                                @Html.TextAreaFor(model => model.Message, new { @class = "form-control", @id = "message", @placeholder = "Message" })
+                                @*<textarea class="form-control" rows="4" name="message" id="message" required="" placeholder="Hi there, I would like to ..."></textarea>*@
+                            </div>
+                        </div>
+                        <!-- End Input -->
+
+                        <div class="">
+                            <input name="submit" type="submit" class="btn btn-primary btn-circled" value="Send Message"><br />
+
+                            <font color="@ViewBag.color">@ViewBag.stackoverflow</font>
+
+                        </div>
+                    </form>
+                    <!-- End Contacts Form -->
+                </div>
+
+                <div class="col-lg-6 col-md-6">
+                    <!-- START MAP -->
+                    <div id="map"></div>
+                    <!-- END MAP -->
+                </div>
+            </div>
+        }
+    </div>
+</section>
+

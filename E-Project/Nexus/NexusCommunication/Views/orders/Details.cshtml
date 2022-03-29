@@ -1,0 +1,75 @@
+﻿@model NexusCommunication.Models.order
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Admin Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>order</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.code)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.customer_s_feedback)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.customer_s_feedback)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.customer.name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.customer.name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.hourly.name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.hourly.name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.planbb.name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.planbb.name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.plan.name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.plan.name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.unlimite.name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.unlimite.name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

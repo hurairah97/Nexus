@@ -1,0 +1,96 @@
+﻿@model IEnumerable<NexusCommunication.Models.plan>
+@{
+    ViewBag.Title = "Nexus | Services";
+}
+<section class="page-banner-area page-service">
+    <div class="overlay"></div>
+    <!-- Content -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-9 col-md-12 col-12 text-center">
+                <div class="page-banner-content">
+                    <h1 class="display-4 font-weight-bold">Dial-Up, BroadBand & Landline services</h1>
+                    <p>We'd love to talk about how we can help you.</p>
+                </div>
+            </div>
+        </div> <!-- / .row -->
+    </div> <!-- / .container -->
+</section>
+<section class="section" id="services-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <p class="pl-3 text-white">
+                    Want to know
+                    more about this? just leave us message <a href="@Url.Action("Contact","Home")" class="text-warning">Contact us</a>
+                </p>
+            </div>
+        </div> <div class="row
+justify-content-center">
+            <div class="col-md-8 col-lg-6 text-center">
+                <div class="section-heading">
+                    <!-- Heading --> <h2 class="section-title mb-2 text-white">
+                         Services
+                    </h2>
+
+                    <!-- Subheading --> <p class="mb-5 text-white">
+                        
+                       Various plans are available according to needs.
+                        
+                    </p>
+                </div>
+            </div>
+        </div> <!-- / .row -->
+
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                <div class="col-lg-4 col-sm-6 col-md-6 mb-30">
+                    <div class="web-service-block">
+                        @if (@item.id == 2)
+                        {
+                        <i class="fas fa-phone-volume"></i>}
+                        @if (@item.id == 3)
+                        {
+                    <i class="fas fa-broadcast-tower"></i>}
+                        @if (@item.id == 4)
+                        {
+                            <i class="fas fa-tty"></i>}
+                        <h3>
+                            <span>@Html.DisplayFor(modelItem => item.name)</span><br />
+                            <span>@Html.DisplayFor(modelItem => item.security_deposit) $</span>
+                        </h3>
+                        <p>
+                            @if (@item.id == 2)
+                            {
+                                <span> Hourlies and unlimited packages are available</span>}
+                            @if (@item.id == 3)
+                            {
+                                <span>  Hourlies and unlimited packages are available</span>}
+                            @if (@item.id == 4)
+                            {
+                                <span>  Monthly, Yearly and also Half-Yearly pakages are available  </span>}
+                            .
+                        </p>
+                        @if (@item.id == 2)
+                        {
+                            @Html.ActionLink("View Packages", "dialup", "Home")
+                        }
+                        @if (@item.id == 3)
+                        {
+                            @Html.ActionLink("View Packages", "bband", "Home")
+                        }
+                        @if (@item.id == 4)
+                        {
+                            @Html.ActionLink("View Packages", "landline", "Home")
+                        }
+
+
+                    </div>
+                </div>
+            }
+           
+        </div>
+    </div>
+</section>
+

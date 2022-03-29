@@ -1,0 +1,100 @@
+﻿
+@{
+    ViewBag.Title = "landline";
+}
+<head>
+    <style>
+        #cen {
+            text-align: center;
+            margin-left: 100px;
+        }
+    </style>
+</head>
+
+<section class="page-banner-area page-service">
+    <div class="overlay"></div>
+    <!-- Content -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-9 col-md-12 col-12 text-center">
+                <div class="page-banner-content">
+                    <h1 class="display-4 font-weight-bold">LandLine Services</h1>
+                    <p>We'd love to talk about how we can help you.</p>
+                </div>
+            </div>
+        </div> <!-- / .row -->
+    </div> <!-- / .container -->
+</section>
+<section class="section" id="services-2">
+    <div  class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <p class="pl-3 text-white">
+                    Want to know
+                    more about this? <a href="@Url.Action("Contact","Home")" class="text-warning">Contact us</a>
+                </p>
+            </div>
+        </div> <div class="row
+justify-content-center">
+            <div class="col-md-8 col-lg-6 text-center">
+                <div class="section-heading">
+                    <!-- Heading --> <h2 class="section-title mb-2
+text-white">
+                        Web Services
+                    </h2>
+
+                    <!-- Subheading --> <p class="mb-5 text-white">
+                                            LandLine plans are available according to needs.
+                    </p>
+                </div>
+            </div>
+        </div> <!-- / .row -->
+
+        <div  class="row">
+            @foreach (var item in ViewBag.a)
+            {
+                <div id="cen" class="col-lg-4 col-sm-6 col-md-6 mb-30">
+                    <div class="web-service-block">
+                        @if (@item.id == 1)
+                        {
+                            <i class="fas fa-address-book"></i>
+                        }
+                        @if (@item.id == 2)
+                        {
+                            <i class="fas fa-address-card"></i>
+                        }
+                        <h3>
+                            <span>@item.name</span><br />
+
+
+                        </h3>
+                        <p>
+                            @if (@item.id == 1)
+                            {
+                                <span>Local Plans are available with separately pakages</span>}
+                            @if (@item.id == 2)
+                            {
+                                <span> Standard Plans are available with separately pakages</span>}
+                        </p>
+
+                        @if (@item.id == 1)
+                        {
+                            @Html.ActionLink("Details", "landline1", "Home", null, new { id = item.id })
+                        }
+                        @if (@item.id == 2)
+                        {
+                            @Html.ActionLink("Details", "landline12", "Home", null, new { id = item.id })
+                        }
+
+
+
+
+
+                        </div>
+                </div>
+                            }
+           
+        </div>
+        
+    </div>
+</section>

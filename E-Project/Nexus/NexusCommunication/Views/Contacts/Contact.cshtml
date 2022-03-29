@@ -1,0 +1,299 @@
+﻿@model NexusCommunication.Models.Contact
+
+
+@{
+    ViewBag.Title = "Nexus | Contact";
+}
+<head>
+    <style>
+        font{
+            margin-top:160px;
+        }
+    </style>
+</head>
+
+<!-- HERO
+================================================== -->
+<section class="page-banner-area page-contact">
+    <div class="overlay"></div>
+    <!-- Content -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-9 col-md-12 col-12 text-center">
+                <div class="page-banner-content">
+                    <h1 class="display-4 font-weight-bold">Got a question?</h1>
+                    <p>We'd love to talk about how we can help you.</p>
+                    <h2><font color="@ViewBag.color">@ViewBag.stackoverflow</font></h2>
+                </div>
+            </div>
+        </div> <!-- / .row -->
+    </div> <!-- / .container -->
+</section>
+
+
+<!-- SECTIONS
+  ================================================== -->
+<section id="contact-info">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-sm-6 col-md-6">
+                <div class="contact-info-block text-center">
+                    <i class="pe-7s-map-marker"></i>
+                    <h4>Address</h4>
+                    <p class="lead">Block A, North Nazimabad, Karachi, Sindh, Pakistan-74700.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-md-6">
+                <div class="contact-info-block text-center">
+                    <i class="pe-7s-mail"></i>
+                    <h4>Email</h4>
+                    <p class="lead">abuhurairahkhan.97@gmail.com <br /></p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-md-6">
+                <div class="contact-info-block text-center">
+                    <i class="pe-7s-phone"></i>
+                    <h4>Phone Number</h4>
+                    <p class="lead">+92-3178568846</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="contact">
+    <div class="container">
+        <div class="row mb-4">
+            <div class="col-md-8 col-lg-6">
+                <h5>Leave a Message</h5>
+                <!-- Heading -->
+                <h2 class="section-title mb-2 ">
+                    Tell us about <span class="font-weight-normal">yourself</span>
+                </h2>
+
+                <!-- Subheading -->
+                <p class="mb-5 ">
+                    Whether you have questions or you would just like to say hello, contact us.
+                </p>
+
+            </div>
+        </div> <!-- / .row -->
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+            <div class="row">
+                <div class="col-lg-6">
+                    <!-- form message -->
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="alert alert-success contact__msg" style="display: none" role="alert">
+                                Your message was sent successfully.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end message -->
+                    <!-- Contacts Form -->
+                    <form class="contact_form" action="mail.php">
+                        <div class="row">
+                            <!-- Input -->
+                            <div class="col-sm-6 mb-6">
+                                <div class="form-group">
+                                    <label class="h6 small d-block text-uppercase">
+                                        Your name
+                                        <span class="text-danger">*</span>
+                                    </label>
+
+                                    <div class="input-group">
+                                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                                        @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control", @id = "name", @placeholder = "Your Name" } })
+                                        @*<input class="form-control" name="name" id="name" required="" placeholder="John Doe" type="text">*@
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Input -->
+                            <!-- Input -->
+                            <div class="col-sm-6 mb-6">
+                                <div class="form-group">
+                                    <label class="h6 small d-block text-uppercase">
+                                        Your email address
+                                        <span class="text-danger">*</span>
+                                    </label>
+
+                                    <div class="input-group ">
+                                        @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control", @id = "email", @placeholder = "example@gmail.com" } })
+                                        @*<input class="form-control" name="email" id="email" required="" placeholder="john@gmail.com" type="email">*@
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Input -->
+
+                            <div class="w-100"></div>
+
+                            <!-- Input -->
+                            <div class="col-sm-6 mb-6">
+                                <div class="form-group">
+                                    <label class="h6 small d-block text-uppercase">
+                                        Subject
+                                        <span class="text-danger">*</span>
+                                    </label>
+
+                                    <div class="input-group">
+                                        @Html.EditorFor(model => model.Subject, new { htmlAttributes = new { @class = "form-control", @id = "subject", @placeholder = "Subject" } })
+                                        @*<input class="form-control" name="subject" id="subject" required="" placeholder="Web design" type="text">*@
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Input -->
+                            <!-- Input -->
+                            <div class="col-sm-6 mb-6">
+                                <div class="form-group">
+                                    <label class="h6 small d-block text-uppercase">
+                                        Your Phone Number
+                                        <span class="text-danger">*</span>
+                                    </label>
+
+                                    <div class="input-group ">
+                                        @Html.EditorFor(model => model.Number, new { htmlAttributes = new { @class = "form-control", @id = "phone", @placeholder = "Phone #" } })
+                                        @*<input class="form-control" id="phone" name="phone" required="" placeholder="1-800-643-4500" type="text">*@
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Input -->
+                        </div>
+
+                        <!-- Input -->
+                        <div class="form-group mb-5">
+                            <label class="h6 small d-block text-uppercase">
+                                How can we help you?
+                                <span class="text-danger">*</span>
+                            </label>
+
+                            <div class="input-group">
+                                @Html.TextAreaFor(model => model.Message, new { @class = "form-control", @id = "message", @placeholder = "Message" })
+                                @*<textarea class="form-control" rows="4" name="message" id="message" required="" placeholder="Hi there, I would like to ..."></textarea>*@
+                            </div>
+                        </div>
+                        <!-- End Input -->
+
+                        <div class="">
+                            @if (Session["c_id"] != null)
+                            {
+                                <input name="submit" type="submit" class="btn btn-primary btn-circled" value="Send Message"><br />
+                            }
+                            else
+                            {
+                                @Html.ActionLink("Before sending a message LOGIN FIRST ", "Login", "Home")
+                            }
+
+
+                            
+
+                        </div>
+                    </form>
+                    <!-- End Contacts Form -->
+                </div>
+
+                <div class="col-lg-6 col-md-6">
+                    <!-- START MAP -->
+                   
+                    
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.1393054807604!2d67.03085831432143!3d24.927323848714966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f90157042d3%3A0x93d609e8bec9a880!2sAptech%20Computer%20Education%20North%20Nazimabad%20Center!5e0!3m2!1sen!2s!4v1640620906529!5m2!1sen!2s" width="360" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <!-- END MAP -->
+                </div>
+            </div>
+        }
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@*@using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            <h4>Contact</h4>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="form-group">
+                @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Subject, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Subject, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Subject, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Number, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Number, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Number, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Message, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Message, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Message, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Create" class="btn btn-default" />
+                </div>
+            </div>
+        </div>
+    }
+
+    <div>
+        @Html.ActionLink("Back to List", "Index")
+    </div>*@

@@ -1,0 +1,81 @@
+﻿@model NexusCommunication.Models.planbb
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Admin Layout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>planbb</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.validity)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.validity)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.local_plan)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.local_plan)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.std_plan)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.std_plan)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.messaging_for_mobiles)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.messaging_for_mobiles)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.planb.name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.planb.name)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

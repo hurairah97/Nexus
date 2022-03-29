@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexusCommunication", "NexusCommunication\NexusCommunication.csproj", "{2F2020E3-1E00-4DB7-A011-510949B1722C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F2020E3-1E00-4DB7-A011-510949B1722C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F2020E3-1E00-4DB7-A011-510949B1722C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F2020E3-1E00-4DB7-A011-510949B1722C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F2020E3-1E00-4DB7-A011-510949B1722C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD65C955-1A57-40EB-80CE-8516E1CF12B0}
+	EndGlobalSection
+EndGlobal

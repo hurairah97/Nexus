@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a8695c9d6eaa40998d7d1c3463f379fb" Name="Diagram1" ZoomLevel="75">
+        <EntityTypeShape EntityType="Database1Model.admin" Width="1.5" PointX="9.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.customer" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.employee" Width="1.5" PointX="12" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.hourly" Width="1.5" PointX="3" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.order" Width="1.5" PointX="7.5" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.planb" Width="1.5" PointX="3" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.planbb" Width="1.5" PointX="5.25" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.plan" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.product" Width="1.5" PointX="10" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.sale" Width="1.5" PointX="7.5" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.store" Width="1.5" PointX="9.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.unlimite" Width="1.5" PointX="3" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.vendor" Width="1.5" PointX="7.75" PointY="1.125" IsExpanded="true" />
+        <AssociationConnector Association="Database1Model.FK__order__customer___72C60C4A" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__sale__customer_i__30F848ED" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__employee__store___37A5467C" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__hourly__plan_id__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__order__hourly_ba__74AE54BC" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__order__landline___76969D2E" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__order__plans_id__73BA3083" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__order__unlimited__75A278F5" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__planb__plans_id__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__planbb__landline__6FE99F9F" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__unlimite__plan_i__5CD6CB2B" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK__product__vendor___34C8D9D1" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="Database1Model.Contact" Width="1.5" PointX="10.375" PointY="11.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

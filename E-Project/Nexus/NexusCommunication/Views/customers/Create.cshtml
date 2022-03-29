@@ -1,0 +1,127 @@
+﻿@model NexusCommunication.Models.customer
+
+@{
+    ViewBag.Title = "SignUp";
+}
+<head>
+    <style>
+        #login {
+            margin-top: -100px;
+            margin-bottom: 100px;
+        }
+      
+    </style>
+</head>
+<section class="banner-area py-5" id="banner-3">
+    <div class="overlay"></div>
+    <!-- Content -->
+    <div class="container">
+        <div class="row  align-items-center justify-content-center">
+            <div class="col-md-12 col-lg-9">
+                <div class="banner-content text-center style-2">
+                        <div id="login">
+                            <h3   class="text-center text-white pt-5">SignUp Form</h3>
+                            <div class="container">
+                                <div id="login-row" class="row justify-content-center align-items-center">
+                                    <div id="login-column" class="col-md-6">
+                                        <div id="login-box" class="col-md-12">
+                                            <div id="login-form" class="form" >
+@using (Html.BeginForm("Create", "customers", FormMethod.Post))
+{
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                                                <div class="form-group">
+                                                    @Html.Label("Name")<br />
+                                                    @Html.TextBox("name", "", new { @class = "form-control" })
+                                                    @Html.ValidationMessageFor(model=>model.name,"",new { @class = "text-danger" })
+                                                </div>
+                                                <div class="form-group">
+                                                    @Html.Label("Email ")<br />
+                                                    @Html.TextBox("email", "", new { @class = "form-control", @type = "email" })
+                                                    @Html.ValidationMessageFor(model => model.email, "", new { @class = "text-danger" })
+                                                </div>
+                                                <div class="form-group">
+                                                    @Html.Label("Password")<br />
+                                                    @Html.TextBox("password", "", new { @class = "form-control", @type = "password" })
+                                                    @Html.ValidationMessageFor(model => model.password, "", new { @class = "text-danger" })
+                                                </div>
+                                                <div class="form-group">
+                                                   
+                                                    @Html.Label("Address")<br />
+                                                    @Html.TextBox("address", "", new { @class = "form-control" })
+                                                    @Html.ValidationMessageFor(model => model.address, "", new { @class = "text-danger" })
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="submit" name="submit" class="btn btn-info btn-md" value="submit">
+                                                </div>
+                    }
+                                                <div id="register-link" class="text-right">
+                                                    <a href="@Url.Action("Login","Home")" class="text-info">Login</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div> <!-- / .row -->
+    </div> <!-- / .container -->
+</section>
+
+
+@*@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>customer</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.name, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.name, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.name, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.email, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.email, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.email, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.password, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.password, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.password, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.address, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.address, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.address, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Sign Up" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>*@
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
